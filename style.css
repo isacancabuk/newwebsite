@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
+  height: 125vh;
+  background: #913159;
+  color: #e9edec;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 62%;
+  height: 125vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+nav {
+  display: flex;
+}
+
+header p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+ul {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #e9edec;
+}
+
+a:hover {
+  color: #bd527f;
+}
+
+.introduction {
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.introduction img {
+  width: 30%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.intro-text {
+  width: 600px;
+}
+
+.website {
+  display: flex;
+  background-color: white;
+  color: rgb(55, 54, 54);
+  padding: 20px;
+}
+
+.website .web-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.website img {
+  width: 60%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.website h2 {
+  text-decoration: underline rgb(55, 54, 54);
+}
+
+.website h1 {
+  padding: 10px 0px;
+  color: black;
+}
+
+.website p {
+  padding-bottom: 15px;
+}
+
+.website button {
+  background-color: #913159;
+  border: #913159 solid;
+  padding: 20px;
+}
+
+.website a {
+  color: #e9edec;
+  text-decoration: none;
+}
+
+.website img {
+  border: black solid;
+}
+
+footer {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: small;
+}
+
+footer p {
+  font-size: 12px;
+}
